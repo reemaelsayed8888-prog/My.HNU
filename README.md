@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>my HNU - Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f7f6; margin: 0; color: #333; }
+        header { background: #fff; padding: 10px 20px; border-bottom: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center; }
+        .user-info { font-size: 14px; color: #555; }
+        .container { display: flex; }
+        /* القائمة الجانبية */
+        nav { width: 200px; background: #fff; height: 100vh; border-left: 1px solid #ddd; padding-top: 20px; }
+        nav ul { list-style: none; padding: 0; }
+        nav ul li { padding: 15px 20px; border-bottom: 1px solid #eee; cursor: pointer; transition: 0.3s; }
+        nav ul li:hover { background: #f0f7ff; color: #0056b3; }
+        /* محتوى الجدول */
+        main { flex: 1; padding: 20px; }
+        h2 { border-bottom: 2px solid #0056b3; display: inline-block; padding-bottom: 5px; margin-bottom: 20px; }
+        .semester-title { background: #eee; padding: 10px; font-weight: bold; margin-top: 30px; }
+        table { width: 100%; border-collapse: collapse; background: #fff; margin-top: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        th, td { padding: 12px; text-align: right; border-bottom: 1px solid #eee; font-size: 14px; }
+        th { background-color: #fdfdfd; color: #777; font-weight: normal; }
+        .grade-a { color: green; font-weight: bold; }
+        .grade-f { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div><strong>my HNU</strong></div>
+    <div class="user-info">ريم عادل السيد أحمد، 913240190 | تسجيل خروج</div>
+</header>
+
+<div class="container">
+    <nav>
+        <ul>
+            <li>🏠 الرئيسية</li>
+            <li>👤 الملف الشخصي</li>
+            <li>💳 المدفوعات</li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>لوحة التحكم - الدرجات النهائية</h2>
+
+        <div class="semester-title">2024 - SPRING</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>المادة</th>
+                    <th>الساعات</th>
+                    <th>الدرجة</th>
+                    <th>النقاط</th>
+                    <th>التقدير</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Basics of Cardio-Pulmonary System</td>
+                    <td>9</td>
+                    <td>116.75 / 135</td>
+                    <td>36</td>
+                    <td class="grade-a">A</td>
+                </tr>
+                <tr>
+<td>English</td>
+                    <td>1.5</td>
+                    <td>93.33 / 100</td>
+                    <td>-</td>
+                    <td class="grade-p">P</td>
+                </tr>
+                <tr>
+                    <td>Basics of Gastrointestinal System</td>
+                    <td>9</td>
+                    <td>0 / 135</td>
+                    <td>-</td>
+                    <td class="grade-f">F</td>
+                </tr>
+                <tr>
+<td>Psychology</td>
+                    <td>3</td>
+                    <td>38 / 45</td>
+                    <td>9</td>
+                    <td class="grade-b">B</td>
+                </tr>
+                <tr>
+                    <td>Locomotor System</td>
+                    <td>9</td>
+                    <td>127.75 / 135</td>
+                    <td>9</td>
+                    <td class="grade-a">A</td>
+                </tr>
+            </tbody>
+        </table>
+
+<div class="semester-title">2024 - Summer</div>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Basics of Gastrointestinal system</td>
+                    <td>9</td>
+                    <td>81.09 / 135</td>
+                    <td>9</td>
+                    <td class="grade-d">D</td>
+                </tr>
+                <tr>
+        <div class="semester-title">2024 - FALL</div>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Principles of Human Body Function</td>
+                    <td>12</td>
+                    <td>165.94 / 180</td>
+                    <td>12</td>
+                    <td class="grade-a">A</td>
+                </tr>
+                <tr>
+<td>blood &body fluid</td>
+                    <td>3</td>
+                    <td>41 / 45</td>
+                    <td>3</td>
+                    <td class="grade-a">A</td>
+                </tr>
+                    <td>Principles of Cell Cycle and Genetics</td>
+                    <td>3</td>
+                    <td>45 / 45</td>
+                    <td>3</td>
+                    <td class="grade-a">A</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</div>
+
+</body>
+</html>
